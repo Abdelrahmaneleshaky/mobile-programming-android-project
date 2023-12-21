@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="500dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="80dp"
+            android:paddingTop="40dp" />
+
+
+        <TextView
+            android:id="@+id/mycart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="My Cart"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/arrowcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:src="@drawable/arrow">
+
+        </ImageButton>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/frameorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="440dp"
+        android:text="Information"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+  <FrameLayout
+      android:layout_marginTop="20dp"
+      android:layout_width="400dp"
+      android:layout_height="100dp"
+      android:layout_below="@+id/frameorder"
+      android:background="@drawable/items">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Your Delivery Address"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        >
+
+    </TextView>
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/location"
+     android:layout_marginTop="30dp"
+     android:layout_marginLeft="10dp"
+
+     >
+
+ </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FCDS"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+
+        >
+
+    </TextView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:layout_marginTop="55dp"
+        >
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+        android:text="payment method"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        >
+
+    </TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/credit_card"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="10dp"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:text="cash"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+  </FrameLayout>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Clear The cart"
+        android:textColor="@android:color/white"
+        android:background="@drawable/orange_button_background"
+        android:id="@+id/clearthedatabase"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:text="submit order"
+        android:textColor="@android:color/white"
+        android:background="@drawable/orange_button_background"
+        android:id="@+id/submitorder"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        android:src="@drawable/share">
+
+    </ImageButton>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bookmark"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        >
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/arrowcart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:src="@drawable/arrow">
+
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/ps5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/items"
+        android:padding="20dp"
+        android:src="@drawable/pic2">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/item2name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="ps5"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+    <ImageButton
+        android:id="@+id/addquantity"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ps5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@+id/addquantity"
+        android:text="0"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/subquantity"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/ps5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/quantity"
+        android:background="@drawable/minus"/>
+
+    <TextView
+        android:id="@+id/itemPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps5"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="28dp"
+        android:text="1500$"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <View
+        android:layout_below="@+id/ps5"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:layout_marginTop="100dp"
+        >
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About this item"
+        android:layout_below="@+id/ps5"
+        android:layout_marginTop="120dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps5"
+        android:layout_marginTop="150dp"
+        android:text="The PS5™ console unleashes new gaming possibilities that you never anticipated.
+Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation® games.
+
+Lightning Speed
+Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation® console can do.
+
+Stunning Games
+Marvel at incredible graphics and experience new PS5™ features.
+
+Breathtaking Immersion
+Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology.">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/addtocart2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3F51B5"
+        android:text="Add to cart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>
