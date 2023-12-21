@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DEV STORE</string>
+    <string name="signin">se connecter</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">se connecter</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="sign_up">s\'inscrire</string>
+</resources>

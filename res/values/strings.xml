@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DEV STORE</string>
+    <string name="signin">Sign in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_up">sign up</string>
+</resources>
